@@ -1,0 +1,40 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .container {
+                display: flex;
+                justify-content: space-evenly;;
+            }
+            .figure1 {
+                width: 0px;
+                height: 0px;
+                border-left: 100px solid transparent;
+                border-right: 100px solid transparent;
+                border-bottom: 200px solid blue;
+                /*transform: rotate(90deg);*/            
+}
+            .figure2 {
+                width: 100px;
+                height: 0px;
+                border-left: 100px solid transparent;
+                border-right: 100px solid transparent;
+                border-bottom: 200px solid gold;
+            }
+            .figure1:hover {
+                border-bottom: 200px solid red;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="figure1"></div>
+            <div class="figure2"></div>
+        </div>
+    </body>
+    </html>
